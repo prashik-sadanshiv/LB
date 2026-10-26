@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+class program22
+{
+    public static void main(String A[])
+    {
+
+
+        Scanner scanner = null;
+        String sName = null;
+
+        scanner = new Scanner(System.in);
+
+        System.out.println("Enter your name: ");
+        sName = scanner.nextLine();
+
+        System.out.println("Your name is: "+sName);
+
+    }
+}
