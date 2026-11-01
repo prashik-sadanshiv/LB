@@ -1,0 +1,29 @@
+
+
+/*
+    INPUT: 6
+    OUTPUT: 1   2  3   4   5   6
+*/
+#include<stdio.h>
+#include<stdlib.h>
+
+void Pattern(int iNo)
+{
+    int iCnt = 0;
+    for(iCnt = 0; iCnt <= iNo; iCnt++)
+    {
+        printf("%d\t",iCnt);
+    }
+}
+
+int main()
+{   
+
+    int iValue = 0;
+    printf("Enter a number: ");
+    scanf("%d",&iValue);
+    
+    Pattern(iValue);
+
+    return EXIT_SUCCESS;
+}
